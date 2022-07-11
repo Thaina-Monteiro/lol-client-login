@@ -71,7 +71,7 @@ div,
 .apple {
     display: flex;
     justify-content: space-evenly;
-   
+
 
 
 
@@ -85,8 +85,6 @@ div,
     display: flex;
     align-items: center;
     justify-content: center
-    
-
 }
 
 .f {
@@ -113,11 +111,13 @@ div,
     align-items: center;
     justify-content: center
 }
+
 .face:hover,
 .google:hover,
-.apple:hover{
+.apple:hover {
     width: 23%;
 }
+
 div {
     margin-bottom: 20px;
 
@@ -141,23 +141,25 @@ div {
     justify-content: center;
     align-items: center;
 }
-.acesso a:hover{
+
+.acesso a:hover {
     color: #a90707;
 }
 
 button {
     width: 65px;
-    background-color: #FF002E36; 
+    background-color: #FF002E36;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
     border: #FF002E36;
 
 }
-button:hover{
+
+button:hover {
     cursor: pointer;
     width: 70px;
-   
+
 }
 
 
@@ -172,72 +174,77 @@ button:hover{
 
 /* Parte do javascript */
 
-.vermelho{
+.vermelho {
     background-color: red;
 }
 
 
 
-@media(max-width:800px){
-    header {display: none}
+@media(max-width:800px) {
+    header {
+        display: none
+    }
+
     main {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
 
-   
+
 
     .img-dragao {
 
-      
+
         width: 100%;
         height: 400px;
-    
+
     }
 
-.first-section{
-    width: 100%;
-}
+    .first-section {
+        width: 100%;
+    }
 
-form input{
-    height: 30%;
-      
- }
- .fazer-login {
-    text-align: center;
-    margin: auto;
-    font-size: 20px;
+    form input {
+        height: 30%;
 
-}
-.first-form {
+    }
 
-    margin: auto;
+    .fazer-login {
+        text-align: center;
+        margin: auto;
+        font-size: 20px;
 
-}
+    }
+
+    .first-form {
+
+        margin: auto;
+
+    }
 
 
-.first-input {
+    .first-input {
 
         width: 400px;
         height: 58px;
-    
-   
-}
 
-.redes{
-    width: 63%;
-    margin: auto;
-    margin-bottom: 20px;
-    
-}
 
-.second-input{
-  
-    width: 13px;
-    height: 13px;
-    margin-left: 150px;
-    border-radius: 3px;
-}
+    }
+
+    .redes {
+        width: 63%;
+        margin: auto;
+        margin-bottom: 20px;
+
+    }
+
+    .second-input {
+
+        width: 13px;
+        height: 13px;
+        margin-left: 150px;
+        border-radius: 3px;
+    }
 
 }
